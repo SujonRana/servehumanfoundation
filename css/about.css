@@ -1,0 +1,57 @@
+/* Universal start */
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* parallex section start  */
+.parallex{
+    background-image: url(../images/aboutbg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0px;
+    text-align: center;
+    
+}
+.parallex_content h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+.parallex_content p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.924);
+}
+/* parallex sectopn end  */
+
+/* about content section start  */
+.about_conten{
+    padding: 150px 0px;
+}
+.about_conten h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #dc4549;
+}
+.about_conten hr{
+    color: black;
+    padding: 1px;
+}
+.about_conten p{
+    font-size: 17px;
+    text-align: justify;
+    color: black;
+}
+.content_left{
+    padding-right:2%;
+}
+.content_right img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 105px;
+}
+/* about content section end  */
